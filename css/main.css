@@ -88,4 +88,22 @@ header.header-top-fluid .container p {
   font-size: 1.6rem;
   font-weight: 400;
 }
+
+div.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.info > article {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2rem;
+  width: 30%;
+  background-color: aliceblue;
+  -webkit-box-shadow: 10px 10px 59px -2px #707070;
+          box-shadow: 10px 10px 59px -2px #707070;
+}
 /*# sourceMappingURL=main.css.map */
