@@ -1,0 +1,23 @@
+div.container-note {
+    background-color: rgb(133, 133, 133);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+
+    div.cytat {
+        box-sizing: border-box;
+        display: flex;
+        padding: 10rem;
+        
+
+        div.kuleczka {
+            height: 10rem;
+            width: 10rem;
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+    }
+
+}
