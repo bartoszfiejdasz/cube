@@ -198,4 +198,19 @@ div.container-note div.zbior div.cytat article {
   width: 40rem;
   line-height: 3rem;
 }
+
+.brands-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #F6F6F6;
+  height: 8rem;
+  width: 100vh;
+}
+
+.brands-fluid > img {
+  height: 7rem;
+}
 /*# sourceMappingURL=main.css.map */
