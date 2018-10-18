@@ -133,7 +133,31 @@ div.button > a:hover span {
 }
 
 div.container-note {
-  background-color: #858585;
+  background-color: #F6F6F6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10rem;
+}
+
+div.container-note div.naglowek > h2 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+div.container-note div.naglowek > p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+div.container-note div.zbior {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,13 +165,9 @@ div.container-note {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
-div.container-note div.cytat {
+div.container-note div.zbior div.cytat {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -156,10 +176,17 @@ div.container-note div.cytat {
   padding: 10rem;
 }
 
-div.container-note div.cytat div.kuleczka {
+div.container-note div.zbior div.cytat div.kuleczka {
   height: 10rem;
   width: 10rem;
-  background-color: blue;
+  background-color: #737581;
   border-radius: 50%;
+}
+
+div.container-note div.zbior div.cytat article {
+  font-size: 2rem;
+  margin-left: 5rem;
+  width: 40rem;
+  line-height: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
