@@ -59,7 +59,6 @@ header.header-top-fluid {
       -ms-flex-align: center;
           align-items: center;
   height: calc(100vh - 6rem);
-  background-color: green;
   margin-top: 6rem;
   background-image: -webkit-gradient(linear, left top, right top, from(#3dccbc), color-stop(#2bc2c0), color-stop(#23b8c1), color-stop(#28adc0), to(#33a2bd));
   background-image: linear-gradient(to right, #3dccbc, #2bc2c0, #23b8c1, #28adc0, #33a2bd);
@@ -71,19 +70,29 @@ header.header-top-fluid .container {
   display: flex;
 }
 
-header.header-top-fluid .container div:nth-child(2) {
+header.header-top-fluid div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-left: 4rem;
   color: #ffffff;
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-header.header-top-fluid .container h2 {
+header.header-top-fluid h2 {
   margin: 0 0 2rem 0;
   font-size: 4rem;
   font-weight: 200;
 }
 
-header.header-top-fluid .container p {
+header.header-top-fluid p {
   margin: 0;
   font-size: 1.6rem;
   font-weight: 400;
@@ -110,8 +119,8 @@ div.info > article {
 
 div.button > a {
   display: inline-block;
-  width: 36rem;
-  height: 10rem;
+  width: 26rem;
+  height: 5rem;
   background-color: aliceblue;
   text-decoration: none;
   color: #000000;
@@ -119,7 +128,7 @@ div.button > a {
 }
 
 div.button > a > span {
-  line-height: 10rem;
+  line-height: 5rem;
   text-align: center;
   display: block;
   font-size: 3rem;
@@ -128,8 +137,8 @@ div.button > a > span {
 }
 
 div.button > a:hover span {
-  -webkit-transform: translateY(-10rem);
-          transform: translateY(-10rem);
+  -webkit-transform: translateY(-5rem);
+          transform: translateY(-5rem);
 }
 
 div.container-note {

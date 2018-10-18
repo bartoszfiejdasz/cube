@@ -2,8 +2,8 @@ div.button {
 
     >a {
         display: inline-block;
-        width: 36rem;
-        height: 10rem;
+        width: 26rem;
+        height: 5rem;
         background-color: aliceblue;
         text-decoration: none;
         color: #000000;
@@ -11,7 +11,7 @@ div.button {
 
 
         >span {
-            line-height: 10rem;
+            line-height: 5rem;
             text-align: center;
             display: block;
             font-size: 3rem;
@@ -21,6 +21,6 @@ div.button {
     }
 
     >a:hover span {
-        transform: translateY(-10rem);
+        transform: translateY(-5rem);
     }
 }
