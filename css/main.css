@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'fontello';
+  src: url("font/fontello.eot?28830010");
+  src: url("font/fontello.eot?28830010#iefix") format("embedded-opentype"), url("font/fontello.woff2?28830010") format("woff2"), url("font/fontello.woff?28830010") format("woff"), url("font/fontello.ttf?28830010") format("truetype"), url("font/fontello.svg?28830010#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?28830010#fontello') format('svg');
+  }
+}
+*/
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 html {
   font-size: 10px;
 }
@@ -83,7 +105,6 @@ header.header-top-fluid div:nth-child(2) {
           justify-content: space-between;
   padding-left: 4rem;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
 }
 
 header.header-top-fluid h2 {
@@ -102,26 +123,85 @@ div.info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-div.info > article {
+div.info div.naglowek-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  margin: 5rem 0 5rem 0;
+}
+
+div.info div.naglowek-info > h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+div.info div.naglowek-info > p {
+  font-size: 1.5rem;
+}
+
+div.info div.artykuly-fluide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+  width: 100rem;
+}
+
+div.info div.artykuly-fluide div.artykul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.info div.artykuly-fluide div.artykul > article {
+  line-height: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 2rem;
-  width: 30%;
+  width: 85%;
+  height: 27rem;
   background-color: aliceblue;
   -webkit-box-shadow: 10px 10px 59px -2px #707070;
           box-shadow: 10px 10px 59px -2px #707070;
+}
+
+div.info div.artykuly-fluide div.artykul > article > span {
+  font-family: 'fontello';
+}
+
+div.info div.artykuly-fluide div.artykul:nth-child(2) {
+  margin-top: 150px;
+}
+
+div.button {
+  margin: 3rem 0 3rem 0;
 }
 
 div.button > a {
   display: inline-block;
   width: 26rem;
   height: 5rem;
-  background-color: aliceblue;
+  background-color: #00FFA3;
   text-decoration: none;
   color: #000000;
   overflow: hidden;
@@ -182,7 +262,9 @@ div.container-note div.zbior div.cytat {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10rem;
+  padding: 5rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 div.container-note div.zbior div.cytat div.kuleczka {
@@ -205,9 +287,9 @@ div.container-note div.zbior div.cytat article {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #F6F6F6;
   height: 8rem;
-  width: 100vh;
+  padding: 3rem 0 3rem 0;
+  background-color: #F6F6F6;
 }
 
 .brands-fluid > img {
