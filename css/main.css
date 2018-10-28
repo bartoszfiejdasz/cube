@@ -236,6 +236,34 @@ div.button > a:hover span {
           transform: translateY(-5rem);
 }
 
+div.button2 {
+  margin: 3rem 0 3rem 0;
+}
+
+div.button2 > a {
+  display: inline-block;
+  width: 26rem;
+  height: 5rem;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #55A9BD;
+  overflow: hidden;
+}
+
+div.button2 > a > span {
+  line-height: 5rem;
+  text-align: center;
+  display: block;
+  font-size: 3rem;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+div.button2 > a:hover span {
+  -webkit-transform: translateY(-5rem);
+          transform: translateY(-5rem);
+}
+
 section.container-note {
   background-color: #F6F6F6;
   display: -webkit-box;

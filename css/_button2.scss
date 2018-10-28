@@ -1,0 +1,26 @@
+div.button2 {
+    margin: 3rem 0 3rem 0;
+    >a {
+        display: inline-block;
+        width: 26rem;
+        height: 5rem;
+        background-color:#ffffff;
+        text-decoration: none;
+        color: #55A9BD;
+        overflow: hidden;
+
+
+        >span {
+            line-height: 5rem;
+            text-align: center;
+            display: block;
+            font-size: 3rem;
+            transition: 0.3s linear;
+        }
+
+    }
+
+    >a:hover span {
+        transform: translateY(-5rem);
+    }
+}
