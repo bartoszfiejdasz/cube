@@ -115,7 +115,7 @@ header.header-top-fluid h2 {
 
 header.header-top-fluid p {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -150,11 +150,12 @@ div.info div.naglowek-info {
 
 div.info div.naglowek-info > h2 {
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 div.info div.naglowek-info > p {
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 div.info div.artykuly-fluide {
@@ -185,8 +186,22 @@ div.info div.artykuly-fluide div.artykul > article {
           box-shadow: 10px 10px 59px -2px #707070;
 }
 
-div.info div.artykuly-fluide div.artykul > article > span {
+div.info div.artykuly-fluide div.artykul > article > div.naglowek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.info div.artykuly-fluide div.artykul > article > div.naglowek > span {
   font-family: 'fontello';
+  margin-top: 12px;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: aquamarine;
+}
+
+div.info div.artykuly-fluide div.artykul > article h3 {
+  font-size: 1.5rem;
 }
 
 div.info div.artykuly-fluide div.artykul:nth-child(2) {
@@ -238,12 +253,14 @@ div.container-note {
 
 div.container-note div.naglowek > h2 {
   text-align: center;
-  font-size: 6rem;
+  font-size: 4rem;
+  font-weight: 200;
 }
 
 div.container-note div.naglowek > p {
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 div.container-note div.zbior {
@@ -287,12 +304,39 @@ div.container-note div.zbior div.cytat article {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 8rem;
+  height: 5rem;
   padding: 3rem 0 3rem 0;
   background-color: #F6F6F6;
 }
 
 .brands-fluid > img {
-  height: 7rem;
+  height: 4rem;
+}
+
+section.products-fluide {
+  margin-top: 5rem;
+}
+
+section.products-fluide div.naglowek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.products-fluide div.naglowek > h2 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+section.products-fluide div.naglowek > p {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */

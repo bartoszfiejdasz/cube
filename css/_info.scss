@@ -13,11 +13,12 @@ div.info {
 
         >h2 {
             font-size: 4rem;
-            font-weight: 400;
+            font-weight: 200;
         }
 
         >p {
             font-size: 1.5rem;
+            font-weight: 400;
         }
     }
 
@@ -33,6 +34,7 @@ div.info {
 
 
             >article {
+
                 line-height: 20px;
                 box-sizing: border-box;
                 padding: 2rem;
@@ -41,9 +43,23 @@ div.info {
                 background-color: aliceblue;
                 box-shadow: 10px 10px 59px -2px rgba(112, 112, 112, 1);
 
-                >span {
-                    font-family: 'fontello';
+
+                >div.naglowek {
+                    display: flex;
+
+                    >span {
+                        font-family: 'fontello';
+                        margin-top: 12px;
+                        margin-right: 1rem;
+                        font-size: 2rem;
+                        color: aquamarine;
+                    }
                 }
+
+                h3 {
+                    font-size: 1.5rem;
+                }
+
             }
         }
 
