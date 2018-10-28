@@ -66,8 +66,30 @@ section.navbar-fluid div.navbar a img {
   height: 4rem;
 }
 
-section.navbar-fluid .hidden {
-  display: none;
+section.navbar-fluid div.nawigacja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.navbar-fluid div.nawigacja div.menu {
+  color: #000000;
+  margin: 0 2rem;
+}
+
+section.navbar-fluid div.nawigacja div.menu > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: black;
+}
+
+section.navbar-fluid div.nawigacja div.menu2 > a {
+  margin: 0 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #1A9C60;
 }
 
 header.header-top-fluid {
@@ -358,7 +380,7 @@ section.note-fluid div.zbior div.cytat div.tekst > p {
 }
 
 section.products-fluid {
-  margin-top: 5rem;
+  margin: 15rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,7 +422,7 @@ section.products-fluid div.podelko {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 5rem;
+  margin: 5rem 0;
 }
 
 section.products-fluid div.podelko div.prostokat1 {
@@ -434,7 +456,7 @@ section.products-fluid div.podelko div.prostokat2 {
   width: 30rem;
   height: 50rem;
   background-color: #E1DDDA;
-  margin: 0 5rem;
+  margin: 0 5rem 5rem 5rem;
 }
 
 section.products-fluid div.podelko div.prostokat3 {
@@ -522,6 +544,11 @@ section.contact-fluide div.kontakt1 {
   color: white;
 }
 
+section.contact-fluide div.kontakt1 > h2 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
 section.contact-fluide div.kontakt2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -578,7 +605,7 @@ section.footer-fluide {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 2rem;
+  padding: 2rem 6rem;
   background-color: #1A1A1A;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
