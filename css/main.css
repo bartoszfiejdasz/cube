@@ -264,7 +264,7 @@ div.button2 > a:hover span {
           transform: translateY(-5rem);
 }
 
-section.container-note {
+section.note-fluid {
   background-color: #F6F6F6;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,19 +279,19 @@ section.container-note {
   padding-top: 10rem;
 }
 
-section.container-note div.naglowek > h2 {
+section.note-fluid div.naglowek > h2 {
   text-align: center;
   font-size: 4rem;
   font-weight: 200;
 }
 
-section.container-note div.naglowek > p {
+section.note-fluid div.naglowek > p {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-section.container-note div.zbior {
+section.note-fluid div.zbior {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,7 +301,7 @@ section.container-note div.zbior {
       justify-content: space-around;
 }
 
-section.container-note div.zbior div.cytat {
+section.note-fluid div.zbior div.cytat {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -312,21 +312,21 @@ section.container-note div.zbior div.cytat {
       flex-wrap: wrap;
 }
 
-section.container-note div.zbior div.cytat div.kuleczka {
+section.note-fluid div.zbior div.cytat div.kuleczka {
   height: 10rem;
   width: 10rem;
   background-color: #737581;
   border-radius: 50%;
 }
 
-section.container-note div.zbior div.cytat article {
+section.note-fluid div.zbior div.cytat article {
   font-size: 2rem;
   margin-left: 5rem;
   width: 40rem;
   line-height: 3rem;
 }
 
-section.container-note div.zbior div.cytat div.tekst {
+section.note-fluid div.zbior div.cytat div.tekst {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -336,7 +336,7 @@ section.container-note div.zbior div.cytat div.tekst {
           flex-direction: column;
 }
 
-section.container-note div.zbior div.cytat div.tekst > p {
+section.note-fluid div.zbior div.cytat div.tekst > p {
   margin-left: 5rem;
   font-size: 1.5rem;
   font-weight: bold;
@@ -357,7 +357,7 @@ section.container-note div.zbior div.cytat div.tekst > p {
   height: 4rem;
 }
 
-section.products-fluide {
+section.products-fluid {
   margin-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -371,7 +371,7 @@ section.products-fluide {
           align-items: center;
 }
 
-section.products-fluide div.naglowek {
+section.products-fluid div.naglowek {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,17 +384,17 @@ section.products-fluide div.naglowek {
           align-items: center;
 }
 
-section.products-fluide div.naglowek > h2 {
+section.products-fluid div.naglowek > h2 {
   font-size: 4rem;
   font-weight: 200;
 }
 
-section.products-fluide div.naglowek > p {
+section.products-fluid div.naglowek > p {
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-section.products-fluide div.podelko {
+section.products-fluid div.podelko {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,7 +403,7 @@ section.products-fluide div.podelko {
   margin-top: 5rem;
 }
 
-section.products-fluide div.podelko div.prostokat1 {
+section.products-fluid div.podelko div.prostokat1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -418,26 +418,26 @@ section.products-fluide div.podelko div.prostokat1 {
   height: 50rem;
 }
 
-section.products-fluide div.podelko div.prostokat1 div.kwadrat1 {
+section.products-fluid div.podelko div.prostokat1 div.kwadrat1 {
   height: 24rem;
   width: 30rem;
   background-color: #E1A87B;
 }
 
-section.products-fluide div.podelko div.prostokat1 div.kwadrat2 {
+section.products-fluid div.podelko div.prostokat1 div.kwadrat2 {
   height: 24rem;
   width: 30rem;
   background-color: #A69DA0;
 }
 
-section.products-fluide div.podelko div.prostokat2 {
+section.products-fluid div.podelko div.prostokat2 {
   width: 30rem;
   height: 50rem;
   background-color: #E1DDDA;
   margin: 0 5rem;
 }
 
-section.products-fluide div.podelko div.prostokat3 {
+section.products-fluid div.podelko div.prostokat3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -452,15 +452,120 @@ section.products-fluide div.podelko div.prostokat3 {
   height: 50rem;
 }
 
-section.products-fluide div.podelko div.prostokat3 div.kwadrat3 {
+section.products-fluid div.podelko div.prostokat3 div.kwadrat3 {
   height: 24rem;
   width: 30rem;
   background-color: #BFEEB8;
 }
 
-section.products-fluide div.podelko div.prostokat3 div.kwadrat4 {
+section.products-fluid div.podelko div.prostokat3 div.kwadrat4 {
   height: 24rem;
   width: 30rem;
   background-color: #8FA387;
+}
+
+div.button3 {
+  margin: 3rem 0 3rem 0;
+  border: 3px solid #ffffff;
+}
+
+div.button3 > a {
+  display: inline-block;
+  width: 15rem;
+  height: 4rem;
+  background-color: #262626;
+  text-decoration: none;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+div.button3 > a > span {
+  line-height: 4rem;
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+div.button3 > a:hover span {
+  -webkit-transform: translateY(-4rem);
+          transform: translateY(-4rem);
+}
+
+section.contact-fluide {
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #262626;
+}
+
+section.contact-fluide div.kontakt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+section.contact-fluide div.kontakt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+section.contact-fluide div.kontakt2 div.kolumna1 {
+  width: 20rem;
+  margin: 5rem;
+  color: white;
+}
+
+section.contact-fluide div.kontakt2 div.kolumna1 > h3 {
+  font-size: 1.7rem;
+}
+
+section.contact-fluide div.kontakt2 div.kolumna1 > p {
+  font-size: 1.1rem;
+  color: #71737F;
+}
+
+section.contact-fluide div.kontakt2 div.kolumna2 {
+  width: 20rem;
+  margin: 5rem;
+  color: #1A9C60;
+  font-size: 1.1rem;
+}
+
+section.contact-fluide div.kontakt2 div.kolumna3 {
+  width: 20rem;
+  margin: 5rem;
+  color: #1A9C60;
+  font-size: 1.1rem;
+}
+
+section.contact-fluide div.kontakt2 div.kolumna4 {
+  background-color: #000000;
+  height: 5rem;
+  width: 20rem;
+  margin: 5rem;
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=main.css.map */
