@@ -1,0 +1,21 @@
+section.footer-fluide {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2rem;
+    background-color: #1A1A1A;
+    box-sizing: border-box;
+
+    div.coppy {
+        color: #71737F;
+    }
+
+    div.authors {
+        display:flex;
+        
+        >span.zielony {
+            color: #1A9C60
+          
+        }
+    }
+}
