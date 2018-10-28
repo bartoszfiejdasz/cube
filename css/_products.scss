@@ -1,5 +1,8 @@
 section.products-fluide {
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     div.naglowek {
         display: flex;
@@ -15,5 +18,60 @@ section.products-fluide {
             font-size: 1.5rem;
             font-weight: 400;
         }
+    }
+
+    div.podelko {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5rem;
+
+        div.prostokat1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30rem;
+            height: 50rem;
+
+            div.kwadrat1 {
+                height: 24rem;
+                width: 30rem;
+                background-color: #E1A87B;
+            }
+
+            div.kwadrat2 {
+                height: 24rem;
+                width: 30rem;
+                background-color: #A69DA0;
+            }
+        }
+
+        div.prostokat2 {
+            width: 30rem;
+            height: 50rem;
+            background-color: #E1DDDA;
+            margin: 0 5rem;
+        }
+
+        div.prostokat3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30rem;
+            height: 50rem;
+
+
+            div.kwadrat3 {
+                height: 24rem;
+                width: 30rem;
+                background-color: #BFEEB8;
+            }
+
+            div.kwadrat4 {
+                height: 24rem;
+                width: 30rem;
+                background-color: #8FA387;
+            }
+        }
+
     }
 }
