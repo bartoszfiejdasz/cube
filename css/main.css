@@ -596,32 +596,41 @@ section.contact-fluide div.kontakt2 div.kolumna4 {
   font-size: 1.1rem;
 }
 
-section.footer-fluide {
+section.footer-fluid {
+  height: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding: 2rem 6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
   background-color: #1A1A1A;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-section.footer-fluide div.coppy {
+section.footer-fluid div.coppy {
   color: #71737F;
 }
 
-section.footer-fluide div.authors {
+section.footer-fluid div.authors {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-section.footer-fluide div.authors > span.zielony {
+section.footer-fluid div.authors a {
   color: #1A9C60;
+  text-decoration: none;
+  padding: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

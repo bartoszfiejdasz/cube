@@ -1,21 +1,26 @@
-section.footer-fluide {
+section.footer-fluid {
+    height: 8rem;
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    padding: 2rem 6rem;
+    align-items: center;
+    padding: 0 2rem;
     background-color: #1A1A1A;
     box-sizing: border-box;
+    
 
     div.coppy {
         color: #71737F;
     }
 
     div.authors {
-        display:flex;
+        display: flex;
+        justify-content: center;
+        align-content: center;
         
-        >span.zielony {
-            color: #1A9C60
-          
+        a {
+            color: #1A9C60;
+            text-decoration: none;
+            padding: 1rem;
         }
     }
 }
