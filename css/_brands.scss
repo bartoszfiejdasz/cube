@@ -1,14 +1,16 @@
-.brands-fluid{
+.brands-fluid {
     display: flex;
     justify-content: space-around;
     height: 5rem;
     padding: 3rem 0 3rem 0;
     background-color: #F6F6F6;
-    
 
 
-    > img{
-       
-        height: 4rem;
+    >a {
+
+        >img {
+
+            height: 4rem;
+        }
     }
 }

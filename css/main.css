@@ -375,7 +375,7 @@ section.note-fluid div.zbior div.cytat div.tekst > p {
   background-color: #F6F6F6;
 }
 
-.brands-fluid > img {
+.brands-fluid > a > img {
   height: 4rem;
 }
 
@@ -487,7 +487,7 @@ section.products-fluid div.podelko div.prostokat3 div.kwadrat4 {
 }
 
 div.button3 {
-  margin: 3rem 0 3rem 0;
+  margin-bottom: 3rem;
   border: 3px solid #ffffff;
 }
 
@@ -515,8 +515,7 @@ div.button3 > a:hover span {
           transform: translateY(-4rem);
 }
 
-section.contact-fluide {
-  padding-top: 5rem;
+section.footer-fluid div.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -524,13 +523,11 @@ section.contact-fluide {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: #262626;
+  padding-top: 3rem;
 }
 
-section.contact-fluide div.kontakt1 {
+section.footer-fluid div.contact div.kontakt1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -544,51 +541,64 @@ section.contact-fluide div.kontakt1 {
   color: white;
 }
 
-section.contact-fluide div.kontakt1 > h2 {
+section.footer-fluid div.contact div.kontakt1 > h2 {
   font-size: 4rem;
   font-weight: 200;
 }
 
-section.contact-fluide div.kontakt2 {
+section.footer-fluid div.contact div.kontakt2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-section.contact-fluide div.kontakt2 div.kolumna1 {
+section.footer-fluid div.contact div.kontakt2 div.kolumna1 {
   width: 20rem;
   margin: 5rem;
   color: white;
 }
 
-section.contact-fluide div.kontakt2 div.kolumna1 > h3 {
+section.footer-fluid div.contact div.kontakt2 div.kolumna1 > h3 {
   font-size: 1.7rem;
 }
 
-section.contact-fluide div.kontakt2 div.kolumna1 > p {
+section.footer-fluid div.contact div.kontakt2 div.kolumna1 > p {
   font-size: 1.1rem;
   color: #71737F;
 }
 
-section.contact-fluide div.kontakt2 div.kolumna2 {
+section.footer-fluid div.contact div.kontakt2 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 2rem;
+  width: 20rem;
+  margin: 5rem;
+}
+
+section.footer-fluid div.contact div.kontakt2 nav > a {
+  color: #1A9C60;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+section.footer-fluid div.contact div.kontakt2 div.kolumna3 {
   width: 20rem;
   margin: 5rem;
   color: #1A9C60;
   font-size: 1.1rem;
 }
 
-section.contact-fluide div.kontakt2 div.kolumna3 {
-  width: 20rem;
-  margin: 5rem;
-  color: #1A9C60;
-  font-size: 1.1rem;
-}
-
-section.contact-fluide div.kontakt2 div.kolumna4 {
+section.footer-fluid div.contact div.kontakt2 div.kolumna4 {
   background-color: #000000;
   height: 5rem;
   width: 20rem;
@@ -596,28 +606,25 @@ section.contact-fluide div.kontakt2 div.kolumna4 {
   font-size: 1.1rem;
 }
 
-section.footer-fluid {
-  height: 8rem;
+section.footer-fluid div.copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background-color: #1A1A1A;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  padding: 2.7rem;
 }
 
-section.footer-fluid div.coppy {
+section.footer-fluid div.copyright div.coppy {
+  margin-top: 1rem;
   color: #71737F;
 }
 
-section.footer-fluid div.authors {
+section.footer-fluid div.copyright div.authors {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -628,7 +635,7 @@ section.footer-fluid div.authors {
       align-content: center;
 }
 
-section.footer-fluid div.authors a {
+section.footer-fluid div.copyright div.authors a {
   color: #1A9C60;
   text-decoration: none;
   padding: 1rem;
